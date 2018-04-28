@@ -6,7 +6,7 @@ import (
 )
 
 func Test_Send(t *testing.T) {
-	conn, err := NewConn("182.92.158.94:6379","lifei")
+	conn, err := NewConn("127.0.0.1:6379","lifei")
 	if err != nil {
 		fmt.Println(err)
 		return
